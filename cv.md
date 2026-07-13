@@ -6,12 +6,18 @@ permalink: /cv/
 
 # Curriculum Vitae
 
-A comprehensive record of my education, research experience, publications, and awards is available in the PDF below.
-
-<a href="{{ '/files/cv.pdf' | relative_url }}" target="_blank" 
-   style="display: inline-block; font-size: 0.8rem; font-weight: 500; padding: 0.25rem 1.2rem; border: 1.5px solid var(--link-color, #b8860b); border-radius: 20px; color: var(--link-color, #b8860b); background: transparent; text-decoration: none;"
-   onmouseover="this.style.background='var(--link-color, #b8860b)'; this.style.color='#fff';"
-   onmouseout="this.style.background='transparent'; this.style.color='var(--link-color, #b8860b)';">Download PDF</a>
+<div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;">
+  <span style="font-size: 0.95rem; color: var(--meta-text, #5a5a5a);">
+    Education, research, publications, and awards
+  </span>
+  <a href="{{ '/files/cv.pdf' | relative_url }}" target="_blank" 
+     style="display: inline-flex; align-items: center; gap: 0.3rem; font-size: 0.85rem; font-weight: 500; padding: 0.2rem 0.8rem; border: 1.5px solid var(--link-color, #b8860b); border-radius: 16px; color: var(--link-color, #b8860b); background: transparent; text-decoration: none; transition: all 0.2s ease;"
+     onmouseover="this.style.background='var(--link-color, #b8860b)'; this.style.color='#fff';"
+     onmouseout="this.style.background='transparent'; this.style.color='var(--link-color, #b8860b)';">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+    PDF
+  </a>
+</div>
 
 ---
 
@@ -27,7 +33,7 @@ B.Sc. in Mathematics and Computer Science (Double Major)
 
 ---
 
-## Selected Awards
+## Awards
 
 - **iCANX Innovation Award** (2025)
 - **Dean's Honours List** (2023–2024, 2024–2025)
@@ -40,26 +46,26 @@ B.Sc. in Mathematics and Computer Science (Double Major)
 **UK Study Tour, Innovation Academy, HKU**  
 *Oct 2025*
 
-- Visited schools and universities in the UK to explore contemporary innovation and design practices.
-- Engaged with leading professors on cutting-edge research and development.
+- Visited UK schools and universities to explore contemporary innovation and design practices.
+- Engaged with leading professors on cutting-edge research.
 
 **Banker To Be Club Membership**  
 *2024*
 
 - Gained professional knowledge in finance and private equity.
-- Developed communication skills through direct interaction with financial practitioners.
+- Developed communication skills through direct interaction with practitioners.
 
 **China Desert Service Trip, HKU Cedars & Chinese YMCA of Hong Kong**  
 *Jul 2024*
 
 - Participated in environmental service activities in the Tengger Desert.
-- Collaborated with teammates from Macau and Taiwan, strengthening cross-cultural communication and cooperation skills.
+- Collaborated with teammates from Macau and Taiwan on cross-cultural cooperation.
 
-**Local Language Internship for Non-Cantonese Students, HKU Cedars**  
+**Local Language Internship, HKU Cedars**  
 *Jun – Jul 2024*
 
 - Served at Po Shek Wu Neighbourhood Elderly Centre.
-- Facilitated communication and cooperation between diverse community groups.
+- Facilitated communication and cooperation across diverse community groups.
 
 ---
 
@@ -71,8 +77,6 @@ B.Sc. in Mathematics and Computer Science (Double Major)
 
 ---
 
-For research experience, publications, and projects, please refer to:
+For research experience, publications, and projects:
 
-- [Research](/research) — research positions and ongoing work
-- [Publications](/publications) — full list of papers
-- [Projects](/projects) — systems, open-source, and documentation
+[Research](/research) · [Publications](/publications) · [Projects](/projects)
