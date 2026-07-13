@@ -15,13 +15,13 @@ permalink: /projects/
     <h3>SWITCH Project — LLM for Social Work</h3>
     <p class="project-role">Team Leader &amp; AI System Architect · HKU Innovation Wing (Oct 2024 – Present)</p>
     <p class="project-desc">
-      Designed and led the development of an LLM-based AI system for social work applications, integrating machine learning models with practical deployment requirements.
+      Designed and led the development of an LLM-based AI system for social work applications, integrating large language models with practical deployment requirements.
     </p>
     <div class="project-meta">
-      <span class="meta-label">Tech Stack:</span> Python, PyTorch, LLMs, Prompt Engineering, Fine-tuning
+      <span class="meta-label">Tech Stack:</span> Python, PyTorch, LLMs, Prompt Engineering, Fine-tuning, Agentic AI, Nextjs & Flask
     </div>
     <div class="project-meta">
-      <span class="meta-label">Impact:</span> Featured innovation project in HKU annual publication. Presented to university leadership and external stakeholders.
+      <span class="meta-label">Impact:</span> Featured innovation project in HKU annual booklet. Presented to university leadership and external stakeholders.
     </div>
     <div class="project-links">
       <a href="#">Project Page</a>
@@ -60,12 +60,12 @@ permalink: /projects/
     <h3>Independent Research Portfolio</h3>
     <p class="project-role">Mathematical Foundations, AI, and Quantitative Research</p>
     <p class="project-desc">
-      A living archive of my self-directed research — including structured book notes, literature reviews, and experimental implementations.
+      A living archive of my self-directed research — including structured book notes, literature reviews, and experimental implementations. Notion stores complete reading notes and knowledge base. Notebook stores working notes, reviews and initial ideas.
     </p>
-    <div style="font-size:0.85rem; color:var(--meta-color, #5a5a5a); margin:0.3rem 0 0.5rem 0; line-height:1.6;">
+    <!-- <div style="font-size:0.85rem; color:var(--meta-color, #5a5a5a); margin:0.3rem 0 0.5rem 0; line-height:1.6;">
       <span style="font-weight:600;">Notion</span> — complete reading notes and knowledge base &nbsp;·&nbsp;
       <span style="font-weight:600;">Notebook</span> — working notes, reviews, and research ideas
-    </div>
+    </div> -->
     <div class="project-links">
       <a href="https://shorturl.at/VREdG" target="_blank">Notion Knowledge Base</a>
       <a href="{{ '/notebook' | relative_url }}">Working Notebook</a>

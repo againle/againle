@@ -27,9 +27,9 @@ My long-term goal is to understand **intelligence and representation** by bridgi
   </p>
   <ul>
     <li>Investigating mechanisms of Large Language Model (LLM) parameter editing.</li>
-    <li>Designing and evaluating experimental frameworks for understanding model editing mechanisms.</li>
-    <li>Developing reproducible pipelines for benchmarking editing algorithms.</li>
-    <li>Exploring relationships between knowledge representation, model behavior, and editing effectiveness.</li>
+    <li>Developing reproducible pipelines for benchmarking editing algorithms and benchmarked 5+ editing baselines (ROME, MEMIT, MEND) under a unified PyTorch framework.</li>
+    <li>Proposed a novel target construction strategy that improved editing success rate on CounterFact+ dataset while maintaining locality.</li>
+    <li>Co-authored ICML 2026 paper; responsible for all experimental pipelines and ablation studies.</li>
     <li>Contributing implementation and experimental components to the <strong>EasyEdit</strong> open-source repository.</li>
   </ul>
 </div>
@@ -46,10 +46,10 @@ My long-term goal is to understand **intelligence and representation** by bridgi
     <span class="research-period">Oct 2024 – Present</span>
   </p>
   <ul>
-    <li>Leading the complete development pipeline: system architecture design, data preparation, model adaptation, evaluation, and deployment.</li>
-    <li>Designing an LLM-based AI system for social work applications.</li>
-    <li>Developing domain-specific AI solutions through fine-tuning, prompt optimization, and model evaluation.</li>
-    <li>Coordinating interdisciplinary collaboration between computer science and social work professionals.</li>
+    <li>Led an interdisciplinary team to design and deploy an LLM-based client simulation system for social work training; co-authored a peer-reviewed paper on the system architecture and real-time feedback mechanism (IEEE Big Data 2025).</li>
+    <li>Fine-tuned LLM on 10k+ domain-specific dialogue transcripts and systematically evaluated model via multi-dimensional metrics, conducting studies on prompt strategies to optimize trade-offs between response quality and inference latency.</li>
+    <li>Developed a full-stack web application using Next.js with flask backend. The platform has been piloted in local NGOs and was featured in the university’s annual report (2025–2026) as a signature AI-for-social-good project.</li>
+    <li>Presented the project to university leadership, provincial officials, and visiting scholars during high-level delegation visits; served as the primary student spokesperson for system demonstrations and Q&A sessions.</li>
   </ul>
 </div>
 
