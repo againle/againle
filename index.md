@@ -41,7 +41,7 @@ A cross-section of my work:
 
 ## 🎓 Education
 
-**The University of Hong Kong** — B.Sc. in Mathematics and Computer Science (Double Major)  
+**The University of Hong Kong** — B.Sc. in Mathematics and Computer Science  
 *Sep 2023 – Jun 2027 (Expected)*
 
 - **CGPA**: 3.83/4.3
