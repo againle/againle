@@ -99,6 +99,48 @@ var locations = [
         lng: 100.5018,
         emoji: "🌴",
         review: "A short trip to Thailand. Special places and food. A chaotic city."
+    },
+    {
+        name: "Manchester",
+        lat: 53.4808,
+        lng: -2.2426,
+        emoji: "⚽",
+        review: "Industrial city with a modern vibe. Equally love the places. `The weather is a little bit foggy.`"
+    },
+    {
+        name: "Dali",
+        lat: 25.6000,
+        lng: 100.2333,
+        emoji: "🏞️",
+        review: "Always sunny and flowerful. Sleep in the wind and rain."
+    },
+    {
+        name: "Datong",
+        lat: 40.0768,
+        lng: 113.3000,
+        emoji: "🏯",
+        review: "Love noodles. Love history. Ancient and calm."
+    },
+    {
+        name: "Qingdao",
+        lat: 36.0671,
+        lng: 120.3826,
+        emoji: "🍺",
+        review: "Beach and beer. A place of modern stories."
+    },
+    {
+        name: "Haerbin",
+        lat: 45.8038,
+        lng: 126.5349,
+        emoji: "❄️",
+        review: "Snow and ice. Coldest place I have ever been."
+    },
+    {
+        name: "Chengdu",
+        lat: 30.5728,
+        lng: 104.0668,
+        emoji: "🐼",
+        review: "Pandaaaaaaas! Spicccccccy!"
     }
 ];
 
