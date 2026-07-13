@@ -17,7 +17,7 @@ My long-term goal is to understand **intelligence and representation** by bridgi
 <div class="research-item">
   <div class="research-header">
     <span class="research-tag">LLM · Knowledge Editing</span>
-    <span class="research-status">Active</span>
+    <span class="research-status">Completed</span>
   </div>
   <h3>LLM Parameter Editing and Knowledge Modification</h3>
   <p class="research-meta">
@@ -79,7 +79,7 @@ My long-term goal is to understand **intelligence and representation** by bridgi
     <span class="research-tag">Tame Geometry · Optimization Theory</span>
     <span class="research-status research-status-upcoming">Upcoming</span>
   </div>
-  <h3>Tame Geometry and Optimization for AI-Generated Data</h3>
+  <h3>Tame Geometry and Optimization</h3>
   <p class="research-meta">
     Capstone Project · HKU Faculty of Science<br />
     <span class="research-supervisor">Supervisor: Prof. Lexiao Lai</span><br />
@@ -125,9 +125,3 @@ My long-term goal is to understand **intelligence and representation** by bridgi
     <p>Applying optimization and statistical learning to financial prediction, risk management, and portfolio optimization.</p>
   </div>
 </div>
-
----
-
-## Collaboration
-
-I am open to interdisciplinary collaborations. If you share similar interests, please feel free to <a href="/contact">reach out</a>.
