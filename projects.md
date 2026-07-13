@@ -7,7 +7,6 @@ permalink: /projects/
 # Projects
 
 <div class="project-card">
-  <div class="project-stripe"></div>
   <div class="project-card-body">
     <div class="project-head">
       <span class="project-tag">LLM · Social Impact</span>
@@ -27,13 +26,12 @@ permalink: /projects/
     <div class="project-links">
       <a href="#">Project Page</a>
       <a href="#">Demo</a>
-      <a href="#">Publication</a>
+      <a href="https://arxiv.org/abs/2601.18517">Publication</a>
     </div>
   </div>
 </div>
 
 <div class="project-card">
-  <div class="project-stripe"></div>
   <div class="project-card-body">
     <div class="project-head">
       <span class="project-tag">LLM · Open Source</span>
@@ -48,33 +46,34 @@ permalink: /projects/
       <span class="meta-label">Tech Stack:</span> Python, PyTorch, HuggingFace, Git
     </div>
     <div class="project-links">
-      <a href="#">GitHub</a>
+      <a href="https://github.com/zjunlp/EasyEdit">GitHub</a>
     </div>
   </div>
 </div>
 
 <div class="project-card">
-  <div class="project-stripe"></div>
   <div class="project-card-body">
     <div class="project-head">
       <span class="project-tag">Research · Documentation</span>
       <span class="project-status">Ongoing</span>
     </div>
     <h3>Independent Research Portfolio</h3>
-    <p class="project-role">Mathematical Foundations, AI, and Quantitative Research Repository</p>
+    <p class="project-role">Mathematical Foundations, AI, and Quantitative Research</p>
     <p class="project-desc">
-      Maintained structured notes on advanced mathematics, machine learning, AI, and quantitative finance, including mathematical derivations, literature reviews, algorithm explanations, and experimental implementations.
+      A living archive of my self-directed research — including structured book notes, literature reviews, and experimental implementations.
     </p>
-    <div class="project-meta">
-      <span class="meta-label">Topics:</span> Real/Complex Analysis, Functional Analysis, Optimization Theory, Statistical Learning, Deep Learning, LLMs, Explainable AI, Quantitative Finance
+    <div style="font-size:0.85rem; color:var(--meta-color, #5a5a5a); margin:0.3rem 0 0.5rem 0; line-height:1.6;">
+      <span style="font-weight:600;">Notion</span> — complete reading notes and knowledge base &nbsp;·&nbsp;
+      <span style="font-weight:600;">Notebook</span> — working notes, reviews, and research ideas
     </div>
     <div class="project-links">
-      <a href="#">Portfolio</a>
+      <a href="https://shorturl.at/VREdG" target="_blank">Notion Knowledge Base →</a>
+      <a href="{{ '/notebook' | relative_url }}">Working Notebook →</a>
     </div>
   </div>
 </div>
 
-<div class="project-card">
+<!-- <div class="project-card">
   <div class="project-stripe"></div>
   <div class="project-card-body">
     <div class="project-head">
@@ -90,4 +89,4 @@ permalink: /projects/
       <span class="meta-label">Tech Stack:</span> LaTeX, MATLAB, Python
     </div>
   </div>
-</div>
+</div> -->
