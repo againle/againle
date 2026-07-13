@@ -17,7 +17,6 @@ permalink: /cv/
   <!-- 学术版 CV -->
   <div style="flex: 1; min-width: 200px; background: var(--card-bg, #f8f9fa); border-radius: 8px; padding: 1rem 1.2rem; border: 1px solid var(--divider-color, #e8ecf0);">
     <div style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.2rem;">
-      <span style="font-size: 1.1rem;">🎓</span>
       <h3 style="margin: 0; font-size: 1rem; color: var(--title-color, #2d2d2d);">Academic CV</h3>
     </div>
     <p style="font-size: 0.85rem; color: var(--meta-text, #5a5a5a); margin: 0.2rem 0 0.6rem 0; line-height: 1.5;">
@@ -35,7 +34,6 @@ permalink: /cv/
   <!-- 工业界版 CV -->
   <div style="flex: 1; min-width: 200px; background: var(--card-bg, #f8f9fa); border-radius: 8px; padding: 1rem 1.2rem; border: 1px solid var(--divider-color, #e8ecf0);">
     <div style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.2rem;">
-      <span style="font-size: 1.1rem;">💼</span>
       <h3 style="margin: 0; font-size: 1rem; color: var(--title-color, #2d2d2d);">Industry CV</h3>
     </div>
     <p style="font-size: 0.85rem; color: var(--meta-text, #5a5a5a); margin: 0.2rem 0 0.6rem 0; line-height: 1.5;">
@@ -59,10 +57,8 @@ permalink: /cv/
 B.Sc. in Mathematics and Computer Science (Double Major)  
 *Sep 2023 – Jun 2027 (Expected)*
 
-- CGPA: 3.83/4.3
-- Dean's Honours List: 2023–2024, 2024–2025
-- Tang Pak Kau Scholarship
-
+- CGPA: 3.83/4.3 | Dean's Honours List: 2023–2024, 2024–2025
+- Exchange at **National University of Singapore** (Jan – May 2026) | Tang Pak Kau Scholarship
 
 
 ## Awards
