@@ -1,0 +1,51 @@
+<aside class="sidebar">
+    <!-- 头像 -->
+    <div class="avatar-wrapper">
+        <img src="{{ '/assets/images/avatar.jpg' | relative_url }}" alt="{{ site.author.name }}" class="avatar" />
+    </div>
+    
+    <!-- 名字 -->
+    <h2 class="sidebar-name">{{ site.author.name }}</h2>
+    
+    <!-- 身份 -->
+    <p class="sidebar-affiliation">{{ site.author.affiliation }}</p>
+    <p class="sidebar-department">{{ site.author.department }}</p>
+    
+    <!-- 分隔线 -->
+    <hr class="sidebar-divider" />
+    
+    <!-- 联系方式图标 -->
+    <div class="social-icons">
+        <a href="mailto:{{ site.email }}" title="Email" target="_blank">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://github.com/{{ site.author.github }}" title="GitHub" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+        {% if site.author.twitter %}
+        <a href="https://twitter.com/{{ site.author.twitter }}" title="Twitter" target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a>
+        {% endif %}
+        {% if site.author.linkedin %}
+        <a href="https://linkedin.com/in/{{ site.author.linkedin }}" title="LinkedIn" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        {% endif %}
+        {% if site.author.google_scholar %}
+        <a href="https://scholar.google.com/citations?user={{ site.author.google_scholar }}" title="Google Scholar" target="_blank">
+            <i class="fas fa-graduation-cap"></i>
+        </a>
+        {% endif %}
+        {% if site.author.orcid %}
+        <a href="https://orcid.org/{{ site.author.orcid }}" title="ORCID" target="_blank">
+            <i class="fab fa-orcid"></i>
+        </a>
+        {% endif %}
+    </div>
+    
+    <!-- 简短 bio（可选） -->
+    <p class="sidebar-bio">
+        Exploring the intersection of <strong>AI</strong> and <strong>cognitive science</strong>.
+    </p>
+</aside>

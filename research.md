@@ -1,41 +1,41 @@
 ---
 layout: default
 title: Research
+permalink: /research/
 ---
 
 # 🔬 Research
 
-## 研究愿景
+## Research Vision
 
-用一段话描述你的长期研究目标。例如：
-
-> "我希望通过 [方法/框架]，推动 [领域] 的发展，最终实现 [具体目标]。我的研究融合了 [学科A] 和 [学科B] 的视角，致力于解决 [核心挑战]。"
+My long-term goal is to [your vision]. I aim to bridge [field A] and [field B] to address [core challenge].
 
 ---
 
-## 当前研究
+## Current Research
 
-### 课题一：课题名称
+### Project A: [Title]
 
-简要描述当前正在进行的项目。包括：
-- **研究问题**：要解决什么？
-- **方法**：用什么技术/理论？
-- **当前进展**：已经做了什么，下一步计划是什么。
+Brief description of what you're working on.
 
-### 课题二：课题名称
+- **Research question**: What problem are you solving?
+- **Methods**: What approaches are you using?
+- **Progress**: What have you done so far?
 
-同上。
+### Project B: [Title]
 
----
-
-## 未来方向
-
-- **方向一**：简要描述你希望探索的新问题。
-- **方向二**：简要描述。
-- **方向三**：简要描述。
+Brief description.
 
 ---
 
-## 合作与开放
+## Future Directions
 
-我欢迎跨学科合作。如果你对我的研究感兴趣，请通过 [Contact](/contact) 页面与我联系。
+- **Direction 1**: Short description.
+- **Direction 2**: Short description.
+- **Direction 3**: Short description.
+
+---
+
+## Collaboration
+
+I am open to interdisciplinary collaborations. Please reach out via [Contact](/contact).

@@ -1,33 +1,28 @@
 ---
 layout: default
 title: Contact
+permalink: /contact/
 ---
 
 # 📬 Contact
 
-## 联系方式
+## Get in Touch
 
-- **📧 邮箱**：[{{ site.email }}](mailto:{{ site.email }})
-- **🐙 GitHub**：[github.com/{{ site.author.github }}](https://github.com/{{ site.author.github }})
-{% if site.author.twitter %}- **🐦 Twitter/X**：[twitter.com/{{ site.author.twitter }}](https://twitter.com/{{ site.author.twitter }}){% endif %}
-- **📍 地址**：XX 大学，XX 楼 XX 室，城市，国家
-
----
-
-## 社交媒体
-
-- **Google Scholar**：[链接]
-- **ResearchGate**：[链接]
-- **LinkedIn**：[链接]
-- **ORCID**：[链接]
+- **📧 Email**: [{{ site.email }}](mailto:{{ site.email }})
+- **🐙 GitHub**: [github.com/{{ site.author.github }}](https://github.com/{{ site.author.github }})
+{% if site.author.twitter %}- **🐦 Twitter**: [twitter.com/{{ site.author.twitter }}](https://twitter.com/{{ site.author.twitter }}){% endif %}
+{% if site.author.linkedin %}- **🔗 LinkedIn**: [linkedin.com/in/{{ site.author.linkedin }}](https://linkedin.com/in/{{ site.author.linkedin }}){% endif %}
+{% if site.author.google_scholar %}- **🎓 Google Scholar**: [scholar.google.com/citations?user={{ site.author.google_scholar }}](https://scholar.google.com/citations?user={{ site.author.google_scholar }}){% endif %}
+{% if site.author.orcid %}- **🆔 ORCID**: [orcid.org/{{ site.author.orcid }}](https://orcid.org/{{ site.author.orcid }}){% endif %}
 
 ---
 
-## 联系表单
+## Office
 
-如果你想快速联系我，也可以通过下面的表单发送消息。（可选：嵌入第三方表单服务）
+[University Name], [Building/Room], [City, Country]
 
-<!-- 
-你可以使用 Google Forms、Formspree 等服务生成表单，然后嵌入 iframe 或链接。
-示例：<iframe src="你的表单链接" width="100%" height="600" frameborder="0"></iframe>
--->
+---
+
+## Quick Message
+
+<!-- You can embed a contact form here using Google Forms, Formspree, etc. -->

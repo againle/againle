@@ -1,15 +1,16 @@
 ---
 layout: default
 title: Notebook
+permalink: /notebook/
 ---
 
 # 📓 Independent Research Notebook
 
-这里记录我的独立研究思考、读书笔记和未发表的想法。所有内容均为个人观点，欢迎讨论。
+This is my personal space for research notes, reading summaries, and unfiltered ideas. All views are my own.
 
 ---
 
-## 全部笔记
+## All Posts
 
 <ul class="post-list">
 {% for post in site.posts %}
@@ -23,5 +24,5 @@ title: Notebook
 </ul>
 
 {% if site.posts.size == 0 %}
-<p style="color: #999;">还没有笔记，敬请期待...</p>
+<p style="color: #7a7a7a;">No posts yet. Stay tuned...</p>
 {% endif %}

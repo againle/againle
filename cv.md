@@ -1,45 +1,42 @@
 ---
 layout: default
 title: CV
+permalink: /cv/
 ---
 
-# 📎 CV
+# 📎 Curriculum Vitae
 
-你可以下载我的完整简历（PDF 格式）：
-
-<p style="font-size: 1.2rem; margin: 1.5rem 0;">
-    <a href="{{ '/files/cv.pdf' | relative_url }}" target="_blank" 
-       style="display: inline-block; background: #2d4059; color: #fff; padding: 0.6rem 1.8rem; border-radius: 6px;">
-        📄 下载 CV (PDF)
-    </a>
-</p>
+<a href="{{ '/files/cv.pdf' | relative_url }}" target="_blank" 
+   style="display: inline-block; background: #b8860b; color: #fff; padding: 0.6rem 1.8rem; border-radius: 6px; font-weight: 500;">
+    📄 Download CV (PDF)
+</a>
 
 ---
 
-## 教育背景
+## Education
 
-- **年份 - 至今**：XX 大学 · XX 专业 · 博士（导师：XXX）
-- **年份 - 年份**：XX 大学 · XX 专业 · 硕士
-- **年份 - 年份**：XX 大学 · XX 专业 · 学士
-
----
-
-## 工作经历
-
-- **年份 - 至今**：XX 机构 · 职位
-- **年份 - 年份**：XX 机构 · 职位
+- **20XX – Present**: Ph.D. in [Field], [University]
+- **20XX – 20XX**: M.S. in [Field], [University]
+- **20XX – 20XX**: B.S. in [Field], [University]
 
 ---
 
-## 技能
+## Experience
 
-- **编程**：Python, R, MATLAB, C++
-- **工具**：PyTorch, TensorFlow, Git, LaTeX
-- **语言**：中文（母语），英语（流利）
+- **20XX – Present**: [Position], [Institution]
+- **20XX – 20XX**: [Position], [Institution]
 
 ---
 
-## 荣誉与奖励
+## Skills
 
-- 年份：奖项名称
-- 年份：奖项名称
+- **Programming**: Python, R, MATLAB, C++
+- **Tools**: PyTorch, TensorFlow, Git, LaTeX
+- **Languages**: English (fluent), [Native Language]
+
+---
+
+## Awards
+
+- 20XX: [Award Name]
+- 20XX: [Award Name]

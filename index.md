@@ -3,23 +3,22 @@ layout: default
 title: Home
 ---
 
-# 👋 欢迎
+# 👋 Welcome
 
-我是 **{{ site.author.name }}**，{{ site.author.affiliation }}。
+I am **{{ site.author.name }}**, {{ site.author.affiliation }} at {{ site.author.department }}.
 
-我的研究兴趣包括 **领域1**、**领域2** 和 **领域3**。我致力于通过 [方法/视角] 来探索 [核心问题]。
+My research interests lie at the intersection of **AI** and **cognitive science**. I am particularly interested in [your specific research focus].
 
-你可以通过导航栏浏览我的：
-- 🔬 [研究](/research) — 研究愿景、当前工作和未来方向
-- 📄 [论文](/publications) — 已发表和待发表的学术成果
-- 📁 [项目](/projects) — 开源项目和实验工具
-- 📓 [笔记](/notebook) — 独立研究思考和读书笔记
+Use the navigation above to explore my:
+- 🔬 [Research](/research) — Vision, current work, and future directions
+- 📄 [Publications](/publications) — Peer-reviewed papers and preprints
+- 📁 [Projects](/projects) — Open-source tools and experiments
+- 📓 [Notebook](/notebook) — Independent thoughts and reading notes
 
-如果你对我的工作感兴趣，欢迎通过 [Contact](/contact) 页面与我联系。
+Feel free to reach out via the [Contact](/contact) page.
 
 ---
 
-### 最新动态
+### News
 
-- **{{ site.time | date: '%Y年%m月' }}**：论文 "[论文标题]" 被 [会议/期刊] 接收。
-- **{{ site.time | date: '%Y年%m月' }}**：开源了 [项目名称]。
+- **{{ site.time | date: '%B %Y' }}**: Our paper "[Paper Title]" was accepted to [Conference/Journal].
