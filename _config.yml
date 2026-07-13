@@ -1,21 +1,23 @@
 # 站点基本信息
-title: "Your Name · Academic Profile"
-email: your.email@example.com
+title: "Hongkai Liu · Academic Profile"
+email: u3612776@connect.hku.hk
 description: >-
-  Personal academic website of Your Name — research, publications, projects, and notes.
+  Personal academic website of Hongkai Liu — Mathematics and Computer Science researcher
+  working on reliable and interpretable AI systems through mathematical foundations,
+  optimization, and statistical learning.
 baseurl: ""  # 如果是子路径，改为 "/xxx"
-url: "https://againle.github.io"
+url: "https://againle.github.io"  # 替换为你的实际 URL
 
 # 作者信息
 author:
-  name: "Your Name"
-  affiliation: "PhD Candidate · XX University"
-  department: "Department of XX"
-  github: "yourusername"
-  twitter: "yourhandle"
-  linkedin: "yourhandle"
-  google_scholar: "yourid"
-  orcid: "0000-0000-0000-0000"
+  name: "Hongkai Liu"
+  affiliation: "Mathematics and Computer Science Double Major"
+  department: "The University of Hong Kong"
+  github: "againle"  # 替换为你的 GitHub 用户名
+  twitter: ""  # 可选
+  linkedin: "hkliu"
+  google_scholar: ""  # 可选，替换为你的 Google Scholar ID
+  orcid: ""  # 可选
 
 # 构建配置
 markdown: kramdown
