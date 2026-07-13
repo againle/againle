@@ -23,7 +23,7 @@ permalink: /cv/
 ## Education
 
 **The University of Hong Kong**  
-B.Sc. in Mathematics and Computer Science (Double Major)  
+B.Sc. in Mathematics and Computer Science (Minor) 
 *Sep 2023 – Jun 2027 (Expected)*
 
 - CGPA: 3.83/4.3
@@ -73,9 +73,8 @@ B.Sc. in Mathematics and Computer Science (Double Major)
 - **Cantonese**: Native
 - **English**: Fluent (IELTS 8.0)
 
----
 
-For research experience, publications, and projects:
+### For research experience, publications, and projects:
 
 - [Research](/research) — research positions and ongoing work
 - [Publications](/publications) — full list of papers
