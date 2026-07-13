@@ -1,0 +1,218 @@
+/* ===== 全局重置 & 基础 ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.7;
+    color: #1a1a2e;
+    background-color: #fafafa;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+a {
+    color: #2d4059;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+a:hover {
+    color: #e56b6f;
+}
+
+/* ===== 导航栏 ===== */
+.site-header {
+    background-color: #2d4059;
+    color: #fff;
+    padding: 1.2rem 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.site-title {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+.site-title a {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #fff;
+}
+.site-title a:hover {
+    color: #f4d58d;
+}
+.site-subtitle {
+    font-size: 0.95rem;
+    color: #ccc;
+    font-weight: 300;
+}
+
+.site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 1.2rem;
+    margin-top: 0.4rem;
+}
+.site-nav a {
+    color: #ddd;
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding: 0.2rem 0;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+}
+.site-nav a:hover {
+    color: #fff;
+    border-bottom-color: #f4d58d;
+}
+.site-nav a.active {
+    color: #fff;
+    border-bottom-color: #e56b6f;
+}
+
+/* ===== 主内容 ===== */
+.page-content {
+    padding: 2.5rem 0 3rem;
+}
+
+.page-content h1 {
+    font-size: 2.2rem;
+    color: #2d4059;
+    margin-bottom: 1rem;
+}
+.page-content h2 {
+    font-size: 1.6rem;
+    color: #2d4059;
+    border-bottom: 2px solid #e8e8e8;
+    padding-bottom: 0.4rem;
+    margin: 1.8rem 0 1rem;
+}
+.page-content h3 {
+    font-size: 1.2rem;
+    color: #2d4059;
+    margin: 1.2rem 0 0.5rem;
+}
+.page-content p {
+    margin-bottom: 0.8rem;
+}
+.page-content ul, .page-content ol {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+.page-content li {
+    margin-bottom: 0.5rem;
+}
+
+/* ===== 论文 / 项目卡片样式 ===== */
+.pub-item, .project-item {
+    margin-bottom: 1.2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+.pub-item:last-child, .project-item:last-child {
+    border-bottom: none;
+}
+.pub-title, .project-title {
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+.pub-meta, .project-meta {
+    color: #666;
+    font-size: 0.92rem;
+}
+.pub-links a, .project-links a {
+    display: inline-block;
+    background-color: #eef2f5;
+    padding: 0.1rem 0.7rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    margin-right: 0.4rem;
+}
+.pub-links a:hover, .project-links a:hover {
+    background-color: #2d4059;
+    color: #fff;
+}
+
+/* ===== Notebook 文章列表 ===== */
+.post-list {
+    list-style: none;
+    padding-left: 0;
+}
+.post-list li {
+    padding: 0.6rem 0;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.post-list .post-date {
+    color: #999;
+    font-size: 0.9rem;
+}
+.post-list .post-title {
+    font-weight: 500;
+}
+
+/* ===== 页脚 ===== */
+.site-footer {
+    background-color: #f0f2f5;
+    padding: 1.8rem 0;
+    margin-top: 2rem;
+    border-top: 1px solid #ddd;
+    color: #555;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.site-footer a {
+    color: #2d4059;
+}
+.site-footer a:hover {
+    color: #e56b6f;
+}
+.footer-links {
+    margin-top: 0.5rem;
+}
+.footer-links a {
+    margin: 0 0.8rem;
+}
+
+/* ===== 响应式 ===== */
+@media (max-width: 700px) {
+    .wrapper {
+        padding: 0 1rem;
+    }
+    .site-title {
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+    .site-nav {
+        gap: 0.2rem 0.8rem;
+    }
+    .site-nav a {
+        font-size: 0.85rem;
+    }
+    .page-content h1 {
+        font-size: 1.8rem;
+    }
+    .page-content h2 {
+        font-size: 1.3rem;
+    }
+    .post-list li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.2rem;
+    }
+}

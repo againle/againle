@@ -1,0 +1,18 @@
+<header class="site-header">
+    <div class="wrapper">
+        <div class="site-title">
+            <a href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
+            <span class="site-subtitle">{{ site.author.affiliation }}</span>
+        </div>
+        
+        <nav class="site-nav">
+            <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+            <a href="{{ '/research' | relative_url }}" {% if page.url contains '/research' %}class="active"{% endif %}>Research</a>
+            <a href="{{ '/publications' | relative_url }}" {% if page.url contains '/publications' %}class="active"{% endif %}>Publications</a>
+            <a href="{{ '/projects' | relative_url }}" {% if page.url contains '/projects' %}class="active"{% endif %}>Projects</a>
+            <a href="{{ '/notebook' | relative_url }}" {% if page.url contains '/notebook' %}class="active"{% endif %}>Notebook</a>
+            <a href="{{ '/cv' | relative_url }}" {% if page.url contains '/cv' %}class="active"{% endif %}>CV</a>
+            <a href="{{ '/contact' | relative_url }}" {% if page.url contains '/contact' %}class="active"{% endif %}>Contact</a>
+        </nav>
+    </div>
+</header>
