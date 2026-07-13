@@ -10,8 +10,6 @@ My research explores how learning systems acquire and represent knowledge, what 
 
 I approach these questions through **optimization theory**, **statistical learning**, **foundation model architecture**, and **real-world deployment**—spanning AI research, quantitative finance, and social impact.
 
----
-
 ## Research Interests
 
 - Statistical Representation Learning & Mathematical Foundations

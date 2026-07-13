@@ -46,3 +46,44 @@
         document.body.classList.add(themeName);
     }
 })();
+
+// ========================================
+// 汉堡菜单切换
+// ========================================
+(function() {
+    const toggle = document.getElementById('nav-toggle');
+    const nav = document.getElementById('site-nav');
+    
+    if (toggle && nav) {
+        // 点击汉堡按钮切换菜单
+        toggle.addEventListener('click', function(e) {
+            e.stopPropagation();
+            toggle.classList.toggle('active');
+            nav.classList.toggle('open');
+        });
+        
+        // 点击菜单中的任意链接 → 自动关闭菜单
+        nav.querySelectorAll('a').forEach(function(link) {
+            link.addEventListener('click', function() {
+                toggle.classList.remove('active');
+                nav.classList.remove('open');
+            });
+        });
+        
+        // 点击页面其他地方 → 关闭菜单
+        document.addEventListener('click', function(e) {
+            if (!nav.contains(e.target) && !toggle.contains(e.target)) {
+                toggle.classList.remove('active');
+                nav.classList.remove('open');
+            }
+        });
+        
+        // 窗口 resize 到桌面端时，确保菜单关闭
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 768) {
+                toggle.classList.remove('active');
+                nav.classList.remove('open');
+            }
+        });
+    }
+})();

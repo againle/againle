@@ -1003,3 +1003,145 @@ body.theme-dark {
     --link-bg-hover: #58a6ff;
     --link-text-hover: #0d1117;
 }
+
+/* ========================================
+   汉堡菜单 (移动端)
+   ======================================== */
+
+/* 汉堡按钮 */
+.nav-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    z-index: 101;
+}
+
+.nav-toggle-bar {
+    display: block;
+    width: 26px;
+    height: 2.5px;
+    background: var(--title-color, #2d2d2d);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    transform-origin: center;
+}
+
+/* 汉堡按钮动画 — 点击后变成 X */
+.nav-toggle.active .nav-toggle-bar:nth-child(1) {
+    transform: translateY(7.5px) rotate(45deg);
+}
+.nav-toggle.active .nav-toggle-bar:nth-child(2) {
+    opacity: 0;
+}
+.nav-toggle.active .nav-toggle-bar:nth-child(3) {
+    transform: translateY(-7.5px) rotate(-45deg);
+}
+
+/* 桌面端：主题切换按钮可见 */
+.desktop-only {
+    display: flex;
+}
+
+/* 移动端：菜单内的主题切换按钮（默认隐藏） */
+.nav-theme-mobile {
+    display: none;
+}
+
+/* 导航菜单 — 桌面端正常显示 */
+.site-nav {
+    display: flex;
+    gap: 0.2rem 1.2rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* ========== 移动端样式 ========== */
+@media (max-width: 768px) {
+    /* 显示汉堡按钮 */
+    .nav-toggle {
+        display: flex;
+    }
+    
+    /* 隐藏桌面端主题切换按钮 */
+    .desktop-only {
+        display: none;
+    }
+    
+    /* 显示移动端主题切换按钮 */
+    .nav-theme-mobile {
+        display: block;
+        margin-top: 0.5rem;
+        padding-top: 0.5rem;
+        border-top: 1px solid var(--divider-color, #e0e4e8);
+        text-align: center;
+    }
+    
+    .nav-theme-mobile .theme-btn {
+        width: auto;
+        padding: 0.3rem 1.2rem;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        gap: 0.4rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--status-bg-light, #e8ecf0);
+        border: 1px solid var(--divider-color, #d0d5db);
+        color: var(--title-color, #2d2d2d);
+    }
+    .nav-theme-mobile .theme-btn:hover {
+        background: var(--link-bg-hover, #b8860b);
+        color: #fff;
+        border-color: var(--link-bg-hover, #b8860b);
+    }
+
+    /* 导航菜单 — 默认隐藏，点击后展开 */
+    .site-nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--site-header-bg, #f8f9fa);
+        flex-direction: column;
+        padding: 1rem 1.5rem 1.2rem;
+        gap: 0.3rem;
+        border-bottom: 2px solid var(--divider-color, #e8ecf0);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+        z-index: 100;
+    }
+    
+    .site-nav.open {
+        display: flex;
+    }
+    
+    .site-nav a {
+        padding: 0.5rem 0;
+        font-size: 1rem;
+        border-bottom: 1px solid var(--divider-color, #f0f0f0);
+        width: 100%;
+    }
+    .site-nav a:last-of-type {
+        border-bottom: none;
+    }
+    .site-nav a.active {
+        border-bottom-color: var(--link-color, #b8860b);
+    }
+
+    /* 覆盖原来 header-right 的 flex 行为 */
+    .header-right {
+        gap: 0.5rem;
+    }
+}
+
+/* 小屏手机额外优化 */
+@media (max-width: 480px) {
+    .site-nav a {
+        font-size: 0.95rem;
+        padding: 0.4rem 0;
+    }
+}

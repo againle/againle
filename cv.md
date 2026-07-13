@@ -19,7 +19,6 @@ permalink: /cv/
   </a>
 </div>
 
----
 
 ## Education
 
@@ -31,7 +30,6 @@ B.Sc. in Mathematics and Computer Science (Double Major)
 - Dean's Honours List: 2023–2024, 2024–2025
 - Tang Pak Kau Scholarship
 
----
 
 ## Awards
 
@@ -39,7 +37,7 @@ B.Sc. in Mathematics and Computer Science (Double Major)
 - **Dean's Honours List** (2023–2024, 2024–2025)
 - **Tang Pak Kau Scholarship**
 
----
+
 
 ## Activities
 
@@ -67,7 +65,7 @@ B.Sc. in Mathematics and Computer Science (Double Major)
 - Served at Po Shek Wu Neighbourhood Elderly Centre.
 - Facilitated communication and cooperation across diverse community groups.
 
----
+
 
 ## Languages
 
@@ -79,4 +77,6 @@ B.Sc. in Mathematics and Computer Science (Double Major)
 
 For research experience, publications, and projects:
 
-[Research](/research) · [Publications](/publications) · [Projects](/projects)
+- [Research](/research) — research positions and ongoing work
+- [Publications](/publications) — full list of papers
+- [Projects](/projects) — systems, open-source, and documentation

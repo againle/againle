@@ -8,16 +8,6 @@ permalink: /notebook/
 
 This is my personal space for documenting research thoughts, reading notes, and ideas beyond formal coursework. I maintain structured notes connecting theoretical research with practical AI systems.
 
----
-
-<!-- ## Research Themes
-
-- **Mathematical Foundations**: Real/Complex Analysis, Functional Analysis, Probability Theory, Statistical Inference, Optimization Theory, Convex Analysis
-- **Machine Learning & AI**: Statistical Learning Theory, Deep Learning Architectures, Representation Learning, LLMs, Explainable AI, AI Reliability
-- **Quantitative Finance**: Mathematical Finance, Stochastic Processes, Financial Modeling, Algorithmic Trading
-
---- -->
-
 ## All Posts
 
 <ul class="post-list">

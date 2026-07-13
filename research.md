@@ -10,7 +10,7 @@ permalink: /research/
 
 My long-term goal is to understand **intelligence and representation** by bridging mathematical theory with modern machine learning practice. I aim to uncover the fundamental principles governing how learning systems—both biological and artificial—acquire, organize, and represent knowledge. Using AI as a lens, I seek to explore whether a unified mathematical framework can characterize the process of learning and the structure of representations across different systems.
 
----
+
 
 ## Current Research
 
@@ -70,7 +70,7 @@ My long-term goal is to understand **intelligence and representation** by bridgi
   </ul>
 </div>
 
----
+
 
 ## Upcoming Research
 
